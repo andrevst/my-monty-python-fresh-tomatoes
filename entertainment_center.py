@@ -1,6 +1,16 @@
 import fresh_tomatoes
 import media
 
+## This script create the movies and adds their content
+
+and_now_for_something_completely_different = media.Movie(
+    "And Now for Something Completely Different",
+    "1971",
+    "And Now for Something Completely Different is a British comedy film based"
+    " on the television comedy series Monty Python's Flying Cicus",
+    "https://upload.wikimedia.org/wikipedia/en/e/ee/ANFSCD_poster.jpg",
+    "https://youtu.be/IDtepG8EvHE")
+
 the_holy_grail = media.Movie(
     "Monty Python and The Holy Grail",
     "1975",
@@ -8,15 +18,6 @@ the_holy_grail = media.Movie(
     " join the Knights of the Round Table. To find the Holy Grail.",
     "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png",  # NOQA
     "https://youtu.be/urRkGvhXc8w")
-
-and_now_for_something_completely_different = media.Movie(
-    "And Now for Something Completely Different",
-    "1971",
-    "And Now for Something Completely Different is a 1971 British sketch"
-    " comedy film based on the television comedy series Monty Python's Flying"
-    " Circus featuring sketches from the first two series."",
-    "https://upload.wikimedia.org/wikipedia/en/e/ee/ANFSCD_poster.jpg",
-    "https://youtu.be/IDtepG8EvHE")
 
 life_of_brian = media.Movie("Monty Python's Life of Brian",
     "1979",
@@ -36,9 +37,8 @@ live_at_the_hollywood_bowl = media.Movie(
 the_meaning_of_life = media.Movie(
     "Monty Python's The Meaning of Life",
     "1983",
-    "A group of fish in a posh restaurant's tank swim together casually, "
-    "until they look at the customers outside of the tank and see their friend"
-    " Howard being eaten. This leads them to question the meaning of life.",
+    "A group of fish in a restaurant's tank until they look their friend "
+    "Howard being eaten. This leads them to question the meaning of life.",
     "https://upload.wikimedia.org/wikipedia/en/9/91/Meaningoflife.jpg",
     "https://youtu.be/LH8aTeouR4Y")
 
@@ -50,8 +50,10 @@ live_mostly = media.Movie(
     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Monty_Python_Live_%28Mostly%29.jpg/440px-Monty_Python_Live_%28Mostly%29.jpg",  # NOQA
     "https://youtu.be/yBcYuwlWFRM")
 
+# adding the movies to a movie array
 movies = [
-    the_holy_grail, and_now_for_something_completely_different, life_of_brian,
+    and_now_for_something_completely_different, the_holy_grail, life_of_brian,
     live_at_the_hollywood_bowl, the_meaning_of_life, live_mostly]
 
+#create the site from the movie array
 fresh_tomatoes.open_movies_page(movies)
