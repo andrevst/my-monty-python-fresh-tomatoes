@@ -113,7 +113,7 @@ main_page_content = '''
       </div>
     </div>
     <div class="container">
-      <div class="row row-eq-height">
+      <div class="row.row-eq-height">
         {movie_tiles}
       </div>
     </div>
