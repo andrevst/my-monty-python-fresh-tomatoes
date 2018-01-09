@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-#  This script create the movies and adds their content
+#  Each function below creates a movie
 
 and_now_for_something_completely_different = media.Movie(
     "And Now for Something Completely Different",
