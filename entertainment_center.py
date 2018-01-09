@@ -17,7 +17,7 @@ the_holy_grail = media.Movie(
     "932 AD, King Arthur travel throughout Britain searching men to"
     " join the Knights of the Round Table. To find the Holy Grail.",
     "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png",  # NOQA
-    "https://youtu.be/urRkGvhXc8w")
+    "https://youtu.be/hKNDml12Big")
 
 life_of_brian = media.Movie(
     "Monty Python's Life of Brian",
