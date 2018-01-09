@@ -1,6 +1,6 @@
 # Monty Python's Fresh Tomatoes
 
-Monty Python movies trailers page, a Udacity Full-Stack webdeveloper nanodegree project forked from (ud036_StarterCode)[] Source code for a Movie Trailer website.
+Monty Python movies trailers page, a Udacity Full-Stack webdeveloper nanodegree project forked from [ud036_StarterCode](https://github.com/udacity/ud036_StarterCode) Source code for a Movie Trailer website.
 
 ## How it works
 
