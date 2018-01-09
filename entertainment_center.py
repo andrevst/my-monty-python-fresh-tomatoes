@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-## This script create the movies and adds their content
+#  This script create the movies and adds their content
 
 and_now_for_something_completely_different = media.Movie(
     "And Now for Something Completely Different",
@@ -19,7 +19,8 @@ the_holy_grail = media.Movie(
     "https://upload.wikimedia.org/wikipedia/en/0/08/Monty-Python-1975-poster.png",  # NOQA
     "https://youtu.be/urRkGvhXc8w")
 
-life_of_brian = media.Movie("Monty Python's Life of Brian",
+life_of_brian = media.Movie(
+    "Monty Python's Life of Brian",
     "1979",
     "Brian Cohen was born in a stable next door to the one Jesus was born,"
     "Brian grows up an idealistic young man who resents the Roman occupation.",
@@ -50,10 +51,10 @@ live_mostly = media.Movie(
     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Monty_Python_Live_%28Mostly%29.jpg/440px-Monty_Python_Live_%28Mostly%29.jpg",  # NOQA
     "https://youtu.be/yBcYuwlWFRM")
 
-# adding the movies to a movie array
+#  adding the movies to a movie array
 movies = [
     and_now_for_something_completely_different, the_holy_grail, life_of_brian,
     live_at_the_hollywood_bowl, the_meaning_of_life, live_mostly]
 
-#create the site from the movie array
+#  create the site from the movie array
 fresh_tomatoes.open_movies_page(movies)
